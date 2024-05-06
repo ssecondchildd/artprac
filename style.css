@@ -1,33 +1,117 @@
-/* this is a css style sheet, the syntax for a comment in CSS is different because it's a separate language to HTML */
-/* below I am calling all the different HTML elements that I have used in the page and describing how it should be rendered on screen within the {curly brackets}. */
-body {
-    background: black;
-    color: azure;
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h1 {
-    color: aqua;
-    text-align: center;
+.doll-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-h2 {
-    color: blueviolet;
+.doll-row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
 }
 
-p {
-    color: chartreuse;
+.doll-body {
+    position: relative;
 }
 
-footer {
-    position: fixed; bottom: 0em;
+.left-button {
+    width: 200px;
+    height: auto;
 }
 
-/* to call a class put a . before its name */
-.newacronym{
-    color: aquamarine;
+.right-button {
+    width: 200px;
+    height: auto; 
 }
 
-.box1 {
-    border: thick double hotpink;
-    padding: 1em;
+#doll-top {
+    height: 200px;
+    width: 200px;
+    background-color: #222222;
+}
+
+#doll-mid {
+    height: 400px;
+    width: 200px;
+    background-color: #666666;
+}
+
+#doll-bottom {
+    height: 200px;
+    width: 200px;
+    background-color: #AAAAAA;
+}
+
+.base {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #886666;
+}
+
+.rotation {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #668888;
+}
+
+.rotation-stack {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.rotation-stack > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+#top-1-img {
+    background-color: aqua;
+}
+
+#top-2-img {
+    background-color: red;
+}
+
+#top-3-img {
+    background-color: green;
+}
+
+#mid-1-img {
+    background-color: aqua;
+}
+
+#mid-2-img {
+    background-color: red;
+}
+
+#mid-3-img {
+    background-color: green;
+}
+
+#bottom-1-img {
+    background-color: aqua;
+}
+
+#bottom-2-img {
+    background-color: red;
+}
+
+#bottom-3-img {
+    background-color: green;
 }
