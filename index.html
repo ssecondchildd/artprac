@@ -1,77 +1,29 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>appears in the tab</title>
-        <link href="style.css" rel="stylesheet">
+   <head> 
+       <link rel="stylesheet" type="text/css" href="style.css">
+       
     </head>
-    <body>
-        <div class="body-wrapper">
-
-            <div class="doll-container">
-                <div class="doll-row">
-                    <a id="topPrev" class="left-button">back</a>
-                    <div id="doll-top" class="doll-body">
-                        <div id="top-base" class="base">
-                            <div id="top-base-img"></div>
-                            <!-- <img src="assets/top-base.jpg"> -->
-                        </div>
-                        <div class="rotation">
-                            <div id="top-stack" class="rotation-stack">
-                                <div id="top-1-img"></div>
-                                <div id="top-2-img"></div>
-                                <div id="top-3-img"></div>
-                                <!-- <img id="top-1" src="assets/top-1.jpg">
-                                <img id="top-2" src="assets/top-2.jpg">
-                                <img id="top-3" src="assets/top-3.jpg"> -->
-                            </div>
-                        </div>
-                    </div>
-                    <a id="topNext" class="right-button">forward</a>
-                </div>
-                <div class="doll-row">
-                    <a id="midPrev" class="left-button">back</a>
-                    <div id="doll-mid" class="doll-body">
-                        <div id="mid-base" class="base">
-                            <!-- <img src="assets/top-base.jpg"> -->
-                            <div id="mid-base-img"></div>
-                        </div>
-                        <div class="rotation">
-                            <div id="mid-stack" class="rotation-stack">
-                                <div id="mid-1-img"></div>
-                                <div id="mid-2-img"></div>
-                                <div id="mid-3-img"></div>
-                                <!-- <img id="mid-1" src="assets/mid-1.jpg">
-                                <img id="mid-2" src="assets/mid-2.jpg">
-                                <img id="mid-3" src="assets/mid-3.jpg"> -->
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <a id="midNext" class="right-button">forward</a>
-                </div>
-                <div class="doll-row">
-                    <a id="bottomPrev" class="left-button">back</a>
-                    <div id="doll-bottom" class="doll-body">
-                        <div id="bottom-base" class="base">
-                            <div id="bottom-base-img"></div>
-                            <!-- <img src="assets/top-base.jpg"> -->
-                        </div>
-                        <div class="rotation">
-                            <div id="bottom-stack" class="rotation-stack">
-                                <div id="bottom-1-img"></div>
-                                <div id="bottom-2-img"></div>
-                                <div id="bottom-3-img"></div>
-                                <!-- <img id="bottom-1" src="assets/bottom-1.jpg">
-                                <img id="bottom-2" src="assets/bottom-2.jpg">
-                                <img id="bottom-3" src="assets/bottom-3.jpg"> -->
-                            </div>
-                        </div>
-                    </div>
-                    <a id="bottomNext" class="right-button">forward</a>
-                </div>
-            </div>
-        </div>
-        <script src="js/main.js"></script>
+    <title> Dress Up Game</title>
+<body>
+    <div id="container">
+    <div id="background">
+    <div id="man"> </div>
+    <div id="bottom"> </div>    
+    <div id="mid"> </div>
+    <div id="top"></div>
+    </div>
+        
+        
+        
+        <input type="button" value="NEXT" id="nexttop" onclick="nexttop()">
+        <input type="button" value="NEXT" id="nextmid" onclick="nextmid()">
+        <input type="button" value="NEXT" id="nextbottom" onclick="nextbottom()">
+    
+    </div>
+    
+    <script src="main.js" type="text/javascript"></script>
+    
     </body>
+
 </html>
-
-
