@@ -25,7 +25,7 @@
     position:absolute;
     width: 465px;
     height:1040px;
-    background-image: url(/assets/top-base.png);
+    background-image: url(assets/top-base.png);
     background-size: cover;
     /* background-position: center; */
 }
@@ -41,7 +41,7 @@
      position:absolute;
      width: 465px;
     height:1040px;
-    background-image: url(../assets/bottom-1.png);
+    background-image: url(assets/bottom-1.png);
     background-size: cover;
     
 }
@@ -50,7 +50,7 @@
     position:absolute;
     width: 465px;
     height:1040px;
-    background-image: url(../assets/bottom-2.png);
+    background-image: url(assets/bottom-2.png);
     background-size: cover;
 }
 
@@ -58,7 +58,7 @@
     position:absolute;
     width: 465px;
     height:1040px;
-    background-image: url(../assets/bottom-3.png);
+    background-image: url(assets/bottom-3.png);
     background-size: cover;
 }
 
@@ -76,7 +76,7 @@
     position:absolute;
     width: 465px;
     height:1040px;
-    background-image: url(../assets/mid-1.png);
+    background-image: url(assets/mid-1.png);
     background-size: cover;
 }
 
@@ -85,7 +85,7 @@
     position:absolute;
     width: 465px;
     height:1040px;
-    background-image: url(../assets/mid-2.png);
+    background-image: url(assets/mid-2.png);
     background-size: cover;
 }
 
@@ -94,7 +94,7 @@
     position:absolute;
     width: 465px;
     height:1040px;
-    background-image: url(../assets/mid-3.png);
+    background-image: url(assets/mid-3.png);
     background-size: cover;
 }
 
@@ -111,7 +111,7 @@
     position:absolute;
     width: 465px;
     height:1040px;
-    background-image: url(../assets/top-1.png);
+    background-image: url(assets/top-1.png);
     background-size: cover;
     
 }
@@ -121,7 +121,7 @@
     position:absolute;
     width: 465px;
     height:1040px;
-    background-image: url(../assets/top-2.png);
+    background-image: url(assets/top-2.png);
     background-size: cover;
 }
 
@@ -130,7 +130,7 @@
     position:absolute;
     width: 465px;
     height:1040px;
-    background-image: url(../assets/top-3.png);
+    background-image: url(assets/top-3.png);
     background-size: cover;
 }
 
