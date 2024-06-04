@@ -8,7 +8,8 @@
     margin-right: 25%;
     width: 1065px;
     height :1040px;
-    background-color: aqua;
+    background-image: url(../assets/background.jpg);
+    background-color: rgb(255, 255, 255);
 }
 
 #background{
@@ -17,7 +18,8 @@
     height:1040px;
     left:300px;
     right: 300px;
-    background-color: rgb(255, 255, 255);
+    
+    
     /* background-image: url("../img/resized_background.png"); */
 }
 
@@ -138,6 +140,7 @@
     position:absolute;
     right:50px;
     top:150px;
+    
 }
 
 #nextmid{
